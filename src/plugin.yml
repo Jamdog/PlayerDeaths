@@ -1,0 +1,21 @@
+name: PlayerDeathLocations
+version: 1
+main: me.zachbears27.DeathLocation
+description: Player Death Locations
+author: A_Brave_Panda
+commands:
+    death:
+        aliases: [de]
+        description: Find a players death!
+        usage: |
+          /<command>
+          /<command> [player]
+          /<command> tp [player]
+
+permissions:
+    death.others:
+        description: Allows you to see the death details of other players.
+        default: false
+    death.tp:
+        description: Allows you to teleport to the death location of yourself or other players.
+        default: false

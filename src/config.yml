@@ -1,0 +1,32 @@
+#----------DeathLocation-----------
+# A Minecraft/Spigot Plugin for 1.11.2
+# This Plugin Is Made For MumboCraft & It's Players & Staff. 
+# Any misuse, unauthorised selling or re-distribution of this plugin will call for said plugin to be removed
+# Plugin written by A_Brave_Panda & Jamdoggy
+
+Hostname: 'localhost'
+Port: '3306'
+Database: 'mcserverdata'
+Username: 'root'
+Password: ''
+Table: 'deathlocations'
+
+# For convenience, MySQL Command to create the database table
+# -----------------------------------------------------------
+# CREATE TABLE `deathlocations` (
+#  `id` int(11) NOT NULL,
+#  `PlayerName` varchar(24) NOT NULL,
+#  `X` varchar(24) NOT NULL,
+#  `Y` varchar(24) NOT NULL,
+#  `Z` varchar(24) NOT NULL,
+#  `DeathReason` varchar(255) NOT NULL,
+#  `world` varchar(255) NOT NULL,
+#  `Time` datetime DEFAULT NULL
+# ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+# 
+# ALTER TABLE `deathlocations`
+#  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+#
+# ALTER TABLE `deathlocations`
+#  ADD PRIMARY KEY (`id`);
+#----------End-Of-Config-----------
